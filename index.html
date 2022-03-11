@@ -77,10 +77,23 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
-        <section class="queries m-5">
+        <section class="m-5">
             <h1 class="queries-heading text-center">Answer of the Queries</h1>
             <hr>
-            
+            <div class="m-5">
+                <h4><span class="text-primary">Question-1: </span>How does JavaScript work?</h4>
+                <p><span class="text-primary">Answer: </span>JavaScript is the most popular scripting language (a scripting language is a lightweight programming language) on the internet, and works in all major browsers, such as Internet Explorer, Mozilla, Firefox, Netscape, Opera and so on. JavaScript is to improve the design and to make the website interactive, makes use of dynamic typing, validate forms, detect browsers, create cookies, and much more. 
+                    JS is a single-threaded and single-concurrent programming language, which means it can only handle one task at a time. The functions of JavaScript work via v8 engine to compile the code in the browser. When the browser loads a website, the browser's engine receives the JavaScript code that interprets and executes the JavaScript code to produce the output. 
+                    </p>
+            </div>
+            <div class="m-5">
+                <h4><span class="text-primary">Question-2: </span>What does JS eventLoop do?</h4>
+                <p><span class="text-primary">Answer: </span>As JavaScript is a single-threaded programming language, the engine executes a script from the top of the file and works its way down sequentially. When we browse a webpage and if any of the existing function takes a long time to execute, we call it a blocking function. Technically, a blocking function blocks all the interactions on the webpage. Usually we put a blocking function in a callback function for later execution to prevent it from blocking other activities.
+
+                    setTimeout() is an asynchronous function. So, When we call the setTimeout() function to make a fetch request the web browser can do these activities simultaneously and asynchronously. Calling the setTimeout() function, the JavaScript engine places it on the call stack, and the Web API creates a timer. Then the JavaScript engine place the function into a queue called a callback queue. 
+                    The event loop is a continuous operation that keeps track of the callback queue as well as the call stack. If the call stack isn't empty, the event loop waits until it is, then adds the next function from the callback queue to it.                    
+                    </p>
+            </div>
         </section>
         <footer></footer>
 
